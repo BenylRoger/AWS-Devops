@@ -6,4 +6,5 @@ phases:
       - echo "Nothing to build. Just moving the files to artifact."
 
 artifacts:
-  files: # No need for artifacts since files are directly uploaded to S3
+  files:
+    - ""
