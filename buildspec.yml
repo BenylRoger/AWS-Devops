@@ -2,7 +2,8 @@ version: 0.1
 
 phases:
   build:
-    commands: - echo "Nothing to build. Just moving the files to artifact."
+    commands:
+      - echo "Nothing to build. Just moving the files to artifact."
 
 artifacts:
   files:
